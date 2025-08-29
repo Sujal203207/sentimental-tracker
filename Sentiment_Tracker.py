@@ -109,7 +109,7 @@ except LookupError:
     nltk.download('vader_lexicon')
 
 # Setup Twitter API v2 with Bearer Token
-client = tweepy.Client(bearer_token="AAAAAAAAAAAAAAAAAAAAAP1L3AEAAAAAj1YjAkf0QiOXyDIK72xYcELWXxg%3DU5GPgWK9gvFhn5QMTgMDx2HF5vD78dkzNpJrAbc3YFaz1FiQ5k", wait_on_rate_limit=True)
+client = tweepy.Client(bearer_token="YcELWXxg%3DU5GPgWK9gvFhn5QMTgMDx2HF5vD78dkzNpJrAbc3YFaz1FiQ5k", wait_on_rate_limit=True)
 
 # Streamlit UI
 st.set_page_config(page_title="Sentiment Tracker for Indian Government Schemes", layout="wide")
